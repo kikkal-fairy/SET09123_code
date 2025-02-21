@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import 'vars.css';
+@import 'barchart.css';
+@import 'bubblechart.css';
+
+h1 {
+    color: var(--main-color);
+    font-family: var(--font-title);
+}
+
+p{
+    color: var(--main-color);
+    font-family: var(--font-text);
+}
+
+p.myClass {
+    color: var(--accent-color);
+}
+
+p#myId {
+    color: goldenrod;
+}
+
+#bar1, #bubble1 {
+    width: 800px;
+    height: 500px;
+    display: block;
+    border: 1px solid black; /* Helps see if div exists */
+}

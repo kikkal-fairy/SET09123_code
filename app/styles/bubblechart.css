@@ -1,0 +1,10 @@
+svg.bubblechart {
+    border: solid 5px #100f0f;
+}
+
+svg.bubblechart > circle.bubble {
+    fill: lightblue;
+    stroke: rgb(34, 0, 255);
+    stroke-width: 3px;
+    opacity: 0.7;
+}

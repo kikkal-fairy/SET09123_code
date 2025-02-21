@@ -1,0 +1,28 @@
+# Ignore macOS system files
+.DS_Store
+.Trash/
+.zsh_sessions/
+.zsh_history
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+
+
+
+# Ignore macOS system files
+.DS_Store
+.Trash/
+.zsh_sessions/
+.zsh_history
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+
+git rm -r --cached .
+git add .
+git commit -m "Clean up unwanted files"
+
+y
+
