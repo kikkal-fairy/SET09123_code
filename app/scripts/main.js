@@ -12,6 +12,7 @@ class BarChart {
          //Declare private fields at the top of the class
          #scaleX;
          #scaleY;
+         #scaleC = () => 'lightgray'; // Default color scale
 
          constructor(container, width, height, margin) {
                 this.width = width;
@@ -62,6 +63,12 @@ class BarChart {
                 console.log('Y Scale Domain:', this.#scaleY.domain());
                 console.log('Y Scale Range:', this.#scaleY.range());
             }
+
+            // Public method to update the color scale
+          setColorScale(scale) {
+        this.#scaleC = scale;
+        return this; // Enable method chaining
+    }
         
             // Render method to draw the bars
             render(data) {
@@ -78,7 +85,7 @@ class BarChart {
                     .attr('y', d => this.#scaleY(d.count)) // Position vertically (count)
                     .attr('width', this.#scaleX.bandwidth()) // Set bar width
                     .attr('height', d => this.height - this.margin[0] - this.margin[1] - this.#scaleY(d.count)) // Set bar height
-                    .attr('fill', 'steelblue'); // Fill color
+                    .attr('fill', d => this.#scaleC(d.breed)); // use the color scale
 
                     // Add x-axis
         this.chart.append('g')
@@ -107,6 +114,7 @@ class BubbleChart {
     #scaleX;
     #scaleY;
     #scaleR;
+    #scaleC = () => 'lightgray'; // Default color scale
 
         constructor(container, width, height, margin) {
                 this.width = width;
@@ -167,7 +175,11 @@ class BubbleChart {
     console.log('Radius Scale Range:', this.#scaleR.range());
    
 }
-
+     // Public method to update the color scale
+     setColorScale(scale) {
+        this.#scaleC = scale;
+        return this; // Enable method chaining
+     }
     
 
     // Render method to draw the bubbles
@@ -184,7 +196,7 @@ class BubbleChart {
             .attr('cx', d => this.#scaleX(d.weight))
             .attr('cy', d => this.#scaleY(d.height))
             .attr('r', d => this.#scaleR(d.count))
-            .attr('fill', 'steelblue') // Fill color
+            .attr('fill', d => this.#scaleC(d.breed)) // use the color scale
             .attr('stroke', 'black') // Stroke color
 
                     // Add x-axis
@@ -225,17 +237,27 @@ let dogsBubble = [
         {breed:'Swiss Shepherd', count:110, weight: 32.5, height: 60.5}
 ];
 
+// Create a category domain (unique dog breeds)
+let breeds = [...new Set(dogsBar.map(d => d.breed))];
+
+let colorRange = d3.schemeCategory10;
+
+// Create an ordinal scale for colors
+let colorScale = d3.scaleOrdinal()
+    .domain(breeds)
+    .range(colorRange);
+
 // Create the BarChart instance
 let barChart = new BarChart("#bar1", 800, 500, [30, 50, 50, 20]);
 
 // Render the bar chart with the dataset
-barChart.render(dogsBar);
+barChart.setColorScale(colorScale).render(dogsBar);
 
         // 3. Create the BubbleChart instance
 let bubbleChart = new BubbleChart("#bubble1", 800, 500, [30, 50, 50, 20]);
 
 // 4. Render the chart with the dataset
-bubbleChart.render(dogsBubble);
+bubbleChart.setColorScale(colorScale).render(dogsBubble);
 
 
 
