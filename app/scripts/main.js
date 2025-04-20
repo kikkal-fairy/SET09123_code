@@ -6,6 +6,7 @@ import { BubbleChart } from './BubbleChart.js';
 import { LineChart } from './LineChart.js';
 import { DonutChart } from './DonutChart.js';
 import { SalesDataManager } from './SalesDataManager.js';
+import UKMap from './UKMap.js';
 
 
 const margin = [30, 50, 50, 20]; // top, bottom, left, right
@@ -23,7 +24,7 @@ bubbleChart.render(data);
 // 👉 Define locationSales first!
 const locationSales = d3.rollups(data, v => d3.sum(v, d => d.sales), d => d.location)
     .map(([location, sales]) => ({ location, sales }));
-    
+
 // Create BarChart first (so we can update it from brush)
 const barChart = new BarChart('#bar1', width, height, margin);
 barChart.render(locationSales);
@@ -65,4 +66,22 @@ document.getElementById('enable-brush').addEventListener('click', () => {
 
     const donutChart = new DonutChart('#donut1', 400, 400, margin);
     donutChart.render(donutData);
+
+});
+
+const attractions = [
+    { name: 'Stonehenge', lat: 51.1788, lon: -1.8261, value: 64 },
+    { name: 'Eden Project', lat: 50.3619, lon: -4.7447, value: 21 },
+    { name: 'Canterbury Cathedral', lat: 51.2798, lon: 1.0828, value: 36 },
+    { name: 'Loch Ness', lat: 57.3229, lon: -4.4244, value: 58 },
+    { name: 'Lake District', lat: 54.5772, lon: -2.7975, value: 47 }
+];
+
+const map = new UKMap('#map', 600, 600);
+map.render(attractions, (eventType, data) => {
+    if (eventType === 'hover') {
+        console.log('Hovered:', data.name);
+    } else if (eventType === 'click') {
+        console.log('Clicked:', data);
+    }
 });
