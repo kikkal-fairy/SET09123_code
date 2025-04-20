@@ -26,5 +26,5 @@ p#myId {
     width: 800px;
     height: 500px;
     display: block;
-    border: 1px solid black; /* Helps see if div exists */
+    border: 3px solid black; /* Helps see if div exists */
 }

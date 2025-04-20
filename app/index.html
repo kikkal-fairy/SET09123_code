@@ -8,6 +8,8 @@
     <!-- Libraries and stylesheets imports -->
     <link rel="stylesheet" href="styles/main.css">
     <script src="libs/d3.v7.min.js"></script>
+    <script src="libs/popper.v2.min.js"></script>
+    <script src="libs/tippy.v6.min.js"></script>
 
 </head>
 <body>
@@ -24,7 +26,13 @@
     
     <!-- Containers for charts -->
     <div id="bar1"></div>
+    <div id="controls">
+        <button id="enable-zoom">Enable Zoom</button>
+        <button id="enable-brush">Enable Brush</button>
+      </div>      
     <div id="bubble1"></div>
+    <div id="line1"></div>
+    <div id="donut1"></div>
     
     <!-- Link to the external JavaScript file-->
     <script type="module" src="scripts/main.js"></script>
