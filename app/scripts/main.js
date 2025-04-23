@@ -8,6 +8,8 @@ import { DonutChart } from './DonutChart.js';
 import { SalesDataManager } from './SalesDataManager.js';
 import UKMap from './UKMap.js';
 import { CirclePack } from './CirclePack.js';
+import { Treemap } from './Treemap.js';
+
 
 const margin = [30, 50, 50, 20];
 const width = 800;
@@ -81,35 +83,52 @@ map.render(attractions, (eventType, data) => {
 });
 
 
-// 3. Tutorial 10: CirclePack for french_districts.csv
+// 3. Tutorial 10: CirclePack & Treemap for french_districts.csv
 d3.csv('./data/french_districts.csv').then(data => {
-  console.log('✅ Loaded French data:', data.length);
-
-  // Clean
-  data.forEach(d => {
-    d.population = +d.population;
-    d.n_cities = +d.n_cities;
-  });
-
-  // Group into nested structure
-  const nested = d3.group(data, d => d.region, d => d.department);
-
-  // Convert to hierarchy object
-  const root = {
-    name: 'France',
-    children: Array.from(nested, ([region, departments]) => ({
-      name: region,
-      children: Array.from(departments, ([dept, districts]) => ({
-        name: dept,
-        value: d3.sum(districts, d => d.population)
+    console.log('✅ Loaded French data:', data.length);
+  
+    // Parse values
+    data.forEach(d => {
+      d.population = +d.population;
+      d.n_cities = +d.n_cities;
+    });
+  
+    // Group into nested structure
+    const nested = d3.group(data, d => d.region, d => d.department);
+  
+    // Convert to hierarchy objects
+    const rootForPop = {
+      name: 'France',
+      children: Array.from(nested, ([region, departments]) => ({
+        name: region,
+        children: Array.from(departments, ([dept, districts]) => ({
+          name: dept,
+          value: d3.sum(districts, d => d.population) // for circle pack
+        }))
       }))
-    }))
-  };
-
-  // Create hierarchy
-  const hierarchyPop = d3.hierarchy(root).sum(d => d.value);
-
-  // Use reusable CirclePack class
-  const circlePackChart = new CirclePack('#circlepack', 600, 600);
-  circlePackChart.render(hierarchyPop);
-});
+    };
+  
+    const rootForCities = {
+      name: 'France',
+      children: Array.from(nested, ([region, departments]) => ({
+        name: region,
+        children: Array.from(departments, ([dept, districts]) => ({
+          name: dept,
+          value: d3.sum(districts, d => d.n_cities) // for treemap
+        }))
+      }))
+    };
+  
+    // Build D3 hierarchies
+    const hierarchyPop = d3.hierarchy(rootForPop).sum(d => d.value);
+    const hierarchyCity = d3.hierarchy(rootForCities).sum(d => d.value);
+  
+    // Render CirclePack
+    const circlePackChart = new CirclePack('#circlepack', 600, 600);
+    circlePackChart.render(hierarchyPop);
+  
+    // Render Treemap
+    const treemapChart = new Treemap('#treemap', 600, 600);
+    treemapChart.render(hierarchyCity);
+  });
+  
