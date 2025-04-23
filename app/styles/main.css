@@ -28,3 +28,10 @@ p#myId {
     display: block;
     border: 3px solid black; /* Helps see if div exists */
 }
+
+#circlepack svg {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+  }
+  

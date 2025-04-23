@@ -1,0 +1,333 @@
+region,department,district,n_cities,population
+Auvergne-Rhône-Alpes,Ain,Belley,105.0,123918.0
+Auvergne-Rhône-Alpes,Ain,Bourg-en-Bresse,199.0,342049.0
+Auvergne-Rhône-Alpes,Ain,Gex,27.0,97175.0
+Auvergne-Rhône-Alpes,Ain,Nantua,62.0,96038.0
+Hauts-de-France,Aisne,Château-Thierry,108.0,71605.0
+Hauts-de-France,Aisne,Laon,240.0,160163.0
+Hauts-de-France,Aisne,Saint-Quentin,126.0,130884.0
+Hauts-de-France,Aisne,Soissons,166.0,110469.0
+Hauts-de-France,Aisne,Vervins,160.0,73406.0
+Auvergne-Rhône-Alpes,Allier,Montluçon,89.0,110462.0
+Auvergne-Rhône-Alpes,Allier,Moulins,109.0,109162.0
+Auvergne-Rhône-Alpes,Allier,Vichy,119.0,127411.0
+Provence-Alpes-Côte d'Azur,Alpes-de-Haute-Provence,Barcelonnette,14.0,8207.0
+Provence-Alpes-Côte d'Azur,Alpes-de-Haute-Provence,Castellane,41.0,11700.0
+Provence-Alpes-Côte d'Azur,Alpes-de-Haute-Provence,Digne-les-Bains,46.0,49212.0
+Provence-Alpes-Côte d'Azur,Alpes-de-Haute-Provence,Forcalquier,97.0,99262.0
+Provence-Alpes-Côte d'Azur,Hautes-Alpes,Briançon,36.0,35898.0
+Provence-Alpes-Côte d'Azur,Hautes-Alpes,Gap,126.0,109985.0
+Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Grasse,62.0,571430.0
+Provence-Alpes-Côte d'Azur,Alpes-Maritimes,Nice,101.0,526066.0
+Auvergne-Rhône-Alpes,Ardèche,Largentière,151.0,104697.0
+Auvergne-Rhône-Alpes,Ardèche,Privas,66.0,87132.0
+Auvergne-Rhône-Alpes,Ardèche,Tournon-sur-Rhône,118.0,142859.0
+Grand Est,Ardennes,Charleville-Mézières,157.0,160763.0
+Grand Est,Ardennes,Rethel,101.0,38215.0
+Grand Est,Ardennes,Sedan,73.0,58648.0
+Grand Est,Ardennes,Vouziers,118.0,22406.0
+Occitanie,Ariège,Foix,115.0,48743.0
+Occitanie,Ariège,Pamiers,91.0,66721.0
+Occitanie,Ariège,Saint-Girons,121.0,41746.0
+Grand Est,Aube,Bar-sur-Aube,108.0,29125.0
+Grand Est,Aube,Nogent-sur-Seine,79.0,55116.0
+Grand Est,Aube,Troyes,244.0,232877.0
+Occitanie,Aude,Carcassonne,186.0,165060.0
+Occitanie,Aude,Limoux,138.0,43579.0
+Occitanie,Aude,Narbonne,109.0,170455.0
+Occitanie,Aveyron,Millau,110.0,82286.0
+Occitanie,Aveyron,Rodez,79.0,116143.0
+Occitanie,Aveyron,Villefranche-de-Rouergue,96.0,91059.0
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhône,Aix-en-Provence,48.0,459789.0
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhône,Arles,29.0,174893.0
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhône,Istres,21.0,331495.0
+Provence-Alpes-Côte d'Azur,Bouches-du-Rhône,Marseille,21.0,1082327.0
+Normandie,Calvados,Bayeux,123.0,75108.0
+Normandie,Calvados,Caen,200.0,393679.0
+Normandie,Calvados,Lisieux,160.0,165442.0
+Normandie,Calvados,Vire,44.0,74115.0
+Auvergne-Rhône-Alpes,Cantal,Aurillac,93.0,84805.0
+Auvergne-Rhône-Alpes,Cantal,Mauriac,55.0,26533.0
+Auvergne-Rhône-Alpes,Cantal,Saint-Flour,98.0,38847.0
+Nouvelle-Aquitaine,Charente,Angoulême,115.0,186090.0
+Nouvelle-Aquitaine,Charente,Cognac,110.0,102231.0
+Nouvelle-Aquitaine,Charente,Confolens,141.0,73218.0
+Nouvelle-Aquitaine,Charente-Maritime,Jonzac,129.0,69876.0
+Nouvelle-Aquitaine,Charente-Maritime,Rochefort,78.0,194460.0
+Nouvelle-Aquitaine,Charente-Maritime,La Rochelle,58.0,221817.0
+Nouvelle-Aquitaine,Charente-Maritime,Saintes,88.0,120025.0
+Nouvelle-Aquitaine,Charente-Maritime,Saint-Jean-d'Angély,110.0,53790.0
+Centre-Val de Loire,Cher,Bourges,128.0,176377.0
+Centre-Val de Loire,Cher,Saint-Amand-Montrond,116.0,64234.0
+Centre-Val de Loire,Cher,Vierzon,43.0,70845.0
+Nouvelle-Aquitaine,Corrèze,Brive-la-Gaillarde,96.0,131880.0
+Nouvelle-Aquitaine,Corrèze,Tulle,104.0,73227.0
+Nouvelle-Aquitaine,Corrèze,Ussel,80.0,44028.0
+Corse,Corse-du-Sud,Ajaccio,81.0,117839.0
+Corse,Corse-du-Sud,Sartène,43.0,41929.0
+Corse,Haute-Corse,Bastia,27.0,90171.0
+Corse,Haute-Corse,Calvi,51.0,30410.0
+Corse,Haute-Corse,Corte,158.0,59884.0
+Bourgogne-Franche-Comté,Côte-d'Or,Beaune,222.0,113567.0
+Bourgogne-Franche-Comté,Côte-d'Or,Dijon,226.0,370741.0
+Bourgogne-Franche-Comté,Côte-d'Or,Montbard,252.0,61490.0
+Bretagne,Côtes-d'Armor,Dinan,67.0,105576.0
+Bretagne,Côtes-d'Armor,Guingamp,111.0,129198.0
+Bretagne,Côtes-d'Armor,Lannion,57.0,103412.0
+Bretagne,Côtes-d'Armor,Saint-Brieuc,113.0,278921.0
+Nouvelle-Aquitaine,Creuse,Aubusson,129.0,45441.0
+Nouvelle-Aquitaine,Creuse,Guéret,127.0,76692.0
+Nouvelle-Aquitaine,Dordogne,Bergerac,130.0,104963.0
+Nouvelle-Aquitaine,Dordogne,Nontron,94.0,55634.0
+Nouvelle-Aquitaine,Dordogne,Périgueux,143.0,179942.0
+Nouvelle-Aquitaine,Dordogne,Sarlat-la-Canéda,138.0,83556.0
+Bourgogne-Franche-Comté,Doubs,Besançon,256.0,255562.0
+Bourgogne-Franche-Comté,Doubs,Montbéliard,168.0,179693.0
+Bourgogne-Franche-Comté,Doubs,Pontarlier,149.0,117388.0
+Auvergne-Rhône-Alpes,Drôme,Die,113.0,69506.0
+Auvergne-Rhône-Alpes,Drôme,Nyons,149.0,153108.0
+Auvergne-Rhône-Alpes,Drôme,Valence,102.0,301960.0
+Normandie,Eure,Les Andelys,185.0,240402.0
+Normandie,Eure,Bernay,297.0,232272.0
+Normandie,Eure,Évreux,103.0,142252.0
+Centre-Val de Loire,Eure-et-Loir,Chartres,148.0,214508.0
+Centre-Val de Loire,Eure-et-Loir,Châteaudun,61.0,60484.0
+Centre-Val de Loire,Eure-et-Loir,Dreux,108.0,131758.0
+Centre-Val de Loire,Eure-et-Loir,Nogent-le-Rotrou,48.0,36788.0
+Bretagne,Finistère,Brest,77.0,383864.0
+Bretagne,Finistère,Châteaulin,57.0,84941.0
+Bretagne,Finistère,Morlaix,59.0,132566.0
+Bretagne,Finistère,Quimper,84.0,332621.0
+Occitanie,Gard,Alès,97.0,151338.0
+Occitanie,Gard,Nîmes,180.0,566216.0
+Occitanie,Gard,Le Vigan,74.0,40210.0
+Occitanie,Haute-Garonne,Muret,126.0,226778.0
+Occitanie,Haute-Garonne,Saint-Gaudens,235.0,79822.0
+Occitanie,Haute-Garonne,Toulouse,225.0,1078522.0
+Occitanie,Gers,Auch,134.0,84664.0
+Occitanie,Gers,Condom,162.0,69177.0
+Occitanie,Gers,Mirande,165.0,44112.0
+Nouvelle-Aquitaine,Gironde,Arcachon,17.0,155625.0
+Nouvelle-Aquitaine,Gironde,Blaye,62.0,92347.0
+Nouvelle-Aquitaine,Gironde,Bordeaux,82.0,975056.0
+Nouvelle-Aquitaine,Gironde,Langon,196.0,135612.0
+Nouvelle-Aquitaine,Gironde,Lesparre-Médoc,49.0,91640.0
+Nouvelle-Aquitaine,Gironde,Libourne,129.0,157265.0
+Occitanie,Hérault,Béziers,153.0,319362.0
+Occitanie,Hérault,Lodève,122.0,143273.0
+Occitanie,Hérault,Montpellier,67.0,700232.0
+Bretagne,Ille-et-Vilaine,Fougères-Vitré,106.0,189113.0
+Bretagne,Ille-et-Vilaine,Redon,50.0,105611.0
+Bretagne,Ille-et-Vilaine,Rennes,109.0,618686.0
+Bretagne,Ille-et-Vilaine,Saint-Malo,68.0,171144.0
+Centre-Val de Loire,Indre,Le Blanc,57.0,32175.0
+Centre-Val de Loire,Indre,Châteauroux,84.0,132181.0
+Centre-Val de Loire,Indre,La Châtre,51.0,28831.0
+Centre-Val de Loire,Indre,Issoudun,49.0,34812.0
+Centre-Val de Loire,Indre-et-Loire,Chinon,106.0,105717.0
+Centre-Val de Loire,Indre-et-Loire,Loches,112.0,120688.0
+Centre-Val de Loire,Indre-et-Loire,Tours,54.0,392415.0
+Auvergne-Rhône-Alpes,Isère,Grenoble,263.0,754336.0
+Auvergne-Rhône-Alpes,Isère,La Tour-du-Pin,136.0,311699.0
+Auvergne-Rhône-Alpes,Isère,Vienne,113.0,217349.0
+Bourgogne-Franche-Comté,Jura,Dole,190.0,109969.0
+Bourgogne-Franche-Comté,Jura,Lons-le-Saunier,249.0,108306.0
+Bourgogne-Franche-Comté,Jura,Saint-Claude,55.0,51069.0
+Nouvelle-Aquitaine,Landes,Dax,152.0,233285.0
+Nouvelle-Aquitaine,Landes,Mont-de-Marsan,175.0,186424.0
+Centre-Val de Loire,Loir-et-Cher,Blois,93.0,155208.0
+Centre-Val de Loire,Loir-et-Cher,Romorantin-Lanthenay,74.0,113749.0
+Centre-Val de Loire,Loir-et-Cher,Vendôme,100.0,71542.0
+Auvergne-Rhône-Alpes,Loire,Montbrison,135.0,186801.0
+Auvergne-Rhône-Alpes,Loire,Roanne,113.0,161151.0
+Auvergne-Rhône-Alpes,Loire,Saint-Étienne,75.0,429376.0
+Auvergne-Rhône-Alpes,Haute-Loire,Brioude,111.0,47205.0
+Auvergne-Rhône-Alpes,Haute-Loire,Le Puy-en-Velay,102.0,99631.0
+Auvergne-Rhône-Alpes,Haute-Loire,Yssingeaux,44.0,87354.0
+Pays de la Loire,Loire-Atlantique,Châteaubriant-Ancenis,76.0,229371.0
+Pays de la Loire,Loire-Atlantique,Nantes,76.0,856275.0
+Pays de la Loire,Loire-Atlantique,Saint-Nazaire,55.0,337506.0
+Centre-Val de Loire,Loiret,Montargis,126.0,174111.0
+Centre-Val de Loire,Loiret,Orléans,121.0,453580.0
+Centre-Val de Loire,Loiret,Pithiviers,79.0,64849.0
+Occitanie,Lot,Cahors,98.0,74887.0
+Occitanie,Lot,Figeac,118.0,56588.0
+Occitanie,Lot,Gourdon,97.0,48081.0
+Nouvelle-Aquitaine,Lot-et-Garonne,Agen,71.0,123608.0
+Nouvelle-Aquitaine,Lot-et-Garonne,Marmande,98.0,85909.0
+Nouvelle-Aquitaine,Lot-et-Garonne,Nérac,58.0,40102.0
+Nouvelle-Aquitaine,Lot-et-Garonne,Villeneuve-sur-Lot,92.0,91651.0
+Occitanie,Lozère,Florac,38.0,13745.0
+Occitanie,Lozère,Mende,114.0,66495.0
+Pays de la Loire,Maine-et-Loire,Angers,66.0,391505.0
+Pays de la Loire,Maine-et-Loire,Cholet,32.0,230481.0
+Pays de la Loire,Maine-et-Loire,Saumur,52.0,138349.0
+Pays de la Loire,Maine-et-Loire,Segré,27.0,72819.0
+Normandie,Manche,Avranches,134.0,139286.0
+Normandie,Manche,Cherbourg,144.0,193809.0
+Normandie,Manche,Coutances,81.0,73249.0
+Normandie,Manche,Saint-Lô,87.0,106579.0
+Grand Est,Marne,Châlons-en-Champagne,150.0,112484.0
+Grand Est,Marne,Épernay,210.0,121835.0
+Grand Est,Marne,Reims,143.0,300057.0
+Grand Est,Marne,Vitry-le-François,110.0,46295.0
+Grand Est,Haute-Marne,Chaumont,158.0,65614.0
+Grand Est,Haute-Marne,Langres,157.0,44862.0
+Grand Est,Haute-Marne,Saint-Dizier,111.0,70277.0
+Pays de la Loire,Mayenne,Château-Gontier,76.0,75607.0
+Pays de la Loire,Mayenne,Laval,34.0,117845.0
+Pays de la Loire,Mayenne,Mayenne,132.0,123298.0
+Grand Est,Meurthe-et-Moselle,Briey,128.0,169394.0
+Grand Est,Meurthe-et-Moselle,Lunéville,164.0,79633.0
+Grand Est,Meurthe-et-Moselle,Nancy,188.0,425870.0
+Grand Est,Meurthe-et-Moselle,Toul,111.0,70403.0
+Grand Est,Meuse,Bar-le-Duc,110.0,61161.0
+Grand Est,Meuse,Commercy,135.0,44221.0
+Grand Est,Meuse,Verdun,254.0,87206.0
+Bretagne,Morbihan,Lorient,58.0,321509.0
+Bretagne,Morbihan,Pontivy,93.0,160677.0
+Bretagne,Morbihan,Vannes,99.0,289725.0
+Grand Est,Moselle,Forbach-Boulay-Moselle,169.0,245612.0
+Grand Est,Moselle,Metz,139.0,349864.0
+Grand Est,Moselle,Sarrebourg-Château-Salins,230.0,94552.0
+Grand Est,Moselle,Sarreguemines,83.0,100874.0
+Grand Est,Moselle,Thionville,104.0,271315.0
+Bourgogne-Franche-Comté,Nièvre,Château-Chinon (Ville),80.0,28875.0
+Bourgogne-Franche-Comté,Nièvre,Clamecy,84.0,21871.0
+Bourgogne-Franche-Comté,Nièvre,Cosne-Cours-sur-Loire,63.0,44224.0
+Bourgogne-Franche-Comté,Nièvre,Nevers,82.0,117772.0
+Hauts-de-France,Nord,Avesnes-sur-Helpe,151.0,232663.0
+Hauts-de-France,Nord,Cambrai,116.0,164127.0
+Hauts-de-France,Nord,Douai,64.0,249013.0
+Hauts-de-France,Nord,Dunkerque,111.0,382052.0
+Hauts-de-France,Nord,Lille,124.0,1253147.0
+Hauts-de-France,Nord,Valenciennes,82.0,354253.0
+Hauts-de-France,Oise,Beauvais,245.0,234652.0
+Hauts-de-France,Oise,Clermont,146.0,132714.0
+Hauts-de-France,Oise,Compiègne,156.0,187038.0
+Hauts-de-France,Oise,Senlis,132.0,287544.0
+Normandie,Orne,Alençon,111.0,88918.0
+Normandie,Orne,Argentan,123.0,112939.0
+Normandie,Orne,Mortagne-au-Perche,151.0,89700.0
+Hauts-de-France,Pas-de-Calais,Arras,357.0,254021.0
+Hauts-de-France,Pas-de-Calais,Béthune,104.0,296523.0
+Hauts-de-France,Pas-de-Calais,Boulogne-sur-Mer,74.0,161125.0
+Hauts-de-France,Pas-de-Calais,Calais,52.0,159792.0
+Hauts-de-France,Pas-de-Calais,Lens,50.0,370764.0
+Hauts-de-France,Pas-de-Calais,Montreuil,164.0,114580.0
+Hauts-de-France,Pas-de-Calais,Saint-Omer,89.0,133178.0
+Auvergne-Rhône-Alpes,Puy-de-Dôme,Ambert,58.0,28376.0
+Auvergne-Rhône-Alpes,Puy-de-Dôme,Clermont-Ferrand,74.0,363358.0
+Auvergne-Rhône-Alpes,Puy-de-Dôme,Issoire,133.0,79929.0
+Auvergne-Rhône-Alpes,Puy-de-Dôme,Riom,155.0,139094.0
+Auvergne-Rhône-Alpes,Puy-de-Dôme,Thiers,44.0,57544.0
+Nouvelle-Aquitaine,Pyrénées-Atlantiques,Bayonne,122.0,304293.0
+Nouvelle-Aquitaine,Pyrénées-Atlantiques,Oloron-Sainte-Marie,155.0,74863.0
+Nouvelle-Aquitaine,Pyrénées-Atlantiques,Pau,269.0,316809.0
+Occitanie,Hautes-Pyrénées,Argelès-Gazost,87.0,38671.0
+Occitanie,Hautes-Pyrénées,Bagnères-de-Bigorre,170.0,49913.0
+Occitanie,Hautes-Pyrénées,Tarbes,212.0,146007.0
+Occitanie,Pyrénées-Orientales,Céret,64.0,132077.0
+Occitanie,Pyrénées-Orientales,Perpignan,39.0,288821.0
+Occitanie,Pyrénées-Orientales,Prades,123.0,61470.0
+Grand Est,Bas-Rhin,Haguenau-Wissembourg,141.0,244994.0
+Grand Est,Bas-Rhin,Molsheim,77.0,105533.0
+Grand Est,Bas-Rhin,Saverne,162.0,131392.0
+Grand Est,Bas-Rhin,Sélestat-Erstein,101.0,160235.0
+Grand Est,Bas-Rhin,Strasbourg,33.0,499357.0
+Grand Est,Haut-Rhin,Altkirch,108.0,71330.0
+Grand Est,Haut-Rhin,Colmar-Ribeauvillé,98.0,215578.0
+Grand Est,Haut-Rhin,Mulhouse,79.0,358233.0
+Grand Est,Haut-Rhin,Thann-Guebwiller,81.0,132776.0
+Auvergne-Rhône-Alpes,Rhône,Lyon,135.0,1612443.0
+Auvergne-Rhône-Alpes,Rhône,Villefranche-sur-Saône,132.0,257156.0
+Bourgogne-Franche-Comté,Haute-Saône,Lure,193.0,111589.0
+Bourgogne-Franche-Comté,Haute-Saône,Vesoul,346.0,131675.0
+Bourgogne-Franche-Comté,Saône-et-Loire,Autun,89.0,133566.0
+Bourgogne-Franche-Comté,Saône-et-Loire,Chalon-sur-Saône,142.0,160975.0
+Bourgogne-Franche-Comté,Saône-et-Loire,Charolles,126.0,89855.0
+Bourgogne-Franche-Comté,Saône-et-Loire,Louhans,88.0,68283.0
+Bourgogne-Franche-Comté,Saône-et-Loire,Mâcon,120.0,116852.0
+Pays de la Loire,Sarthe,La Flèche,118.0,155228.0
+Pays de la Loire,Sarthe,Mamers,191.0,155630.0
+Pays de la Loire,Sarthe,Le Mans,45.0,268792.0
+Auvergne-Rhône-Alpes,Savoie,Albertville,69.0,115185.0
+Auvergne-Rhône-Alpes,Savoie,Chambéry,151.0,284225.0
+Auvergne-Rhône-Alpes,Savoie,Saint-Jean-de-Maurienne,53.0,44377.0
+Auvergne-Rhône-Alpes,Haute-Savoie,Annecy,79.0,292544.0
+Auvergne-Rhône-Alpes,Haute-Savoie,Bonneville,60.0,192579.0
+Auvergne-Rhône-Alpes,Haute-Savoie,Saint-Julien-en-Genevois,72.0,192520.0
+Auvergne-Rhône-Alpes,Haute-Savoie,Thonon-les-Bains,68.0,150774.0
+Île-de-France,Paris,Paris,1.0,2204773.0
+Normandie,Seine-Maritime,Dieppe,343.0,241430.0
+Normandie,Seine-Maritime,Le Havre,149.0,392956.0
+Normandie,Seine-Maritime,Rouen,216.0,641173.0
+Île-de-France,Seine-et-Marne,Fontainebleau,85.0,159077.0
+Île-de-France,Seine-et-Marne,Meaux,142.0,349551.0
+Île-de-France,Seine-et-Marne,Melun,59.0,282099.0
+Île-de-France,Seine-et-Marne,Provins,176.0,191659.0
+Île-de-France,Seine-et-Marne,Torcy,45.0,438083.0
+Île-de-France,Yvelines,Mantes-la-Jolie,109.0,276774.0
+Île-de-France,Yvelines,Rambouillet,83.0,233778.0
+Île-de-France,Yvelines,Saint-Germain-en-Laye,44.0,529307.0
+Île-de-France,Yvelines,Versailles,23.0,423232.0
+Nouvelle-Aquitaine,Deux-Sèvres,Bressuire,57.0,112379.0
+Nouvelle-Aquitaine,Deux-Sèvres,Niort,121.0,204546.0
+Nouvelle-Aquitaine,Deux-Sèvres,Parthenay,78.0,67554.0
+Hauts-de-France,Somme,Abbeville,164.0,127468.0
+Hauts-de-France,Somme,Amiens,291.0,310496.0
+Hauts-de-France,Somme,Montdidier,109.0,48412.0
+Hauts-de-France,Somme,Péronne,208.0,96088.0
+Occitanie,Tarn,Albi,163.0,196981.0
+Occitanie,Tarn,Castres,151.0,201431.0
+Occitanie,Tarn-et-Garonne,Castelsarrasin,103.0,79610.0
+Occitanie,Tarn-et-Garonne,Montauban,92.0,184520.0
+Provence-Alpes-Côte d'Azur,Var,Brignoles,67.0,185383.0
+Provence-Alpes-Côte d'Azur,Var,Draguignan,54.0,311435.0
+Provence-Alpes-Côte d'Azur,Var,Toulon,32.0,578835.0
+Provence-Alpes-Côte d'Azur,Vaucluse,Apt,57.0,131663.0
+Provence-Alpes-Côte d'Azur,Vaucluse,Avignon,17.0,218468.0
+Provence-Alpes-Côte d'Azur,Vaucluse,Carpentras,77.0,220631.0
+Pays de la Loire,Vendée,Fontenay-le-Comte,110.0,145324.0
+Pays de la Loire,Vendée,La Roche-sur-Yon,77.0,304973.0
+Pays de la Loire,Vendée,Les Sables-d'Olonne,71.0,243158.0
+Nouvelle-Aquitaine,Vienne,Châtellerault,92.0,111468.0
+Nouvelle-Aquitaine,Vienne,Montmorillon,91.0,68817.0
+Nouvelle-Aquitaine,Vienne,Poitiers,83.0,266865.0
+Nouvelle-Aquitaine,Haute-Vienne,Bellac,57.0,39775.0
+Nouvelle-Aquitaine,Haute-Vienne,Limoges,108.0,303155.0
+Nouvelle-Aquitaine,Haute-Vienne,Rochechouart,30.0,38449.0
+Grand Est,Vosges,Épinal,236.0,209797.0
+Grand Est,Vosges,Neufchâteau,175.0,55096.0
+Grand Est,Vosges,Saint-Dié-des-Vosges,96.0,114093.0
+Bourgogne-Franche-Comté,Yonne,Auxerre,170.0,169405.0
+Bourgogne-Franche-Comté,Yonne,Avallon,135.0,43669.0
+Bourgogne-Franche-Comté,Yonne,Sens,118.0,133828.0
+Bourgogne-Franche-Comté,Territoire de Belfort,Belfort,101.0,145640.0
+Île-de-France,Essonne,Étampes,75.0,133116.0
+Île-de-France,Essonne,Évry,51.0,543449.0
+Île-de-France,Essonne,Palaiseau,68.0,634034.0
+Île-de-France,Hauts-de-Seine,Antony,11.0,405491.0
+Île-de-France,Hauts-de-Seine,Boulogne-Billancourt,8.0,322928.0
+Île-de-France,Hauts-de-Seine,Nanterre,17.0,897498.0
+Île-de-France,Seine-Saint-Denis,Bobigny,9.0,424430.0
+Île-de-France,Seine-Saint-Denis,Le Raincy,22.0,766518.0
+Île-de-France,Seine-Saint-Denis,Saint-Denis,9.0,439185.0
+Île-de-France,Val-de-Marne,Créteil,16.0,316295.0
+Île-de-France,Val-de-Marne,L' Haÿ-les-Roses,18.0,567867.0
+Île-de-France,Val-de-Marne,Nogent-sur-Marne,13.0,512873.0
+Île-de-France,Val-d'Oise,Argenteuil,17.0,418507.0
+Île-de-France,Val-d'Oise,Pontoise,105.0,344152.0
+Île-de-France,Val-d'Oise,Sarcelles,62.0,476603.0
+Guadeloupe,Guadeloupe,Basse-Terre,18.0,191041.0
+Guadeloupe,Guadeloupe,Pointe-à-Pitre,14.0,205112.0
+Martinique,Martinique,Fort-de-France,4.0,158159.0
+Martinique,Martinique,Le Marin,12.0,117986.0
+Martinique,Martinique,Saint-Pierre,8.0,23216.0
+Martinique,Martinique,La Trinité,10.0,78350.0
+Guyane,Guyane,Cayenne,14.0,178310.0
+Guyane,Guyane,Saint-Laurent-du-Maroni,8.0,92814.0
+La Réunion,La Réunion,Saint-Benoît,6.0,128237.0
+La Réunion,La Réunion,Saint-Denis,3.0,207247.0
+La Réunion,La Réunion,Saint-Paul,5.0,214963.0
+La Réunion,La Réunion,Saint-Pierre,10.0,312616.0
